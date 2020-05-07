@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/groupoPrincipal"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/inicio"
+            android:title="@string/menu_inicio" />
+    </group>
+    <group
+        android:id="@+id/groupoClinica"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/historia"
+            android:icon="@drawable/historia"
+            android:title="@string/menu_historia" />
+        <item
+            android:id="@+id/laboratorio"
+            android:icon="@drawable/laboratorio"
+            android:title="@string/menu_laboratorio" />
+        <item
+            android:id="@+id/imagen"
+            android:icon="@drawable/imagen"
+            android:title="@string/menu_imagen" />
+        <item
+            android:id="@+id/teleconsulta"
+            android:icon="@drawable/teleconsulta"
+            android:title="@string/menu_teleconsulta" />
+        <item
+            android:id="@+id/citas"
+            android:icon="@drawable/citas"
+            android:title="@string/menu_citas" />
+        <item
+            android:id="@+id/contacto"
+            android:icon="@drawable/contacto"
+            android:title="@string/menu_contacto" />
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/facebook"
+            android:title="@string/menu_facebook" />
+        <item
+            android:id="@+id/instagram"
+            android:icon="@drawable/instagram"
+            android:title="@string/menu_instagram" />
+    </group>
+    <group
+        android:id="@+id/groupoUsuario"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/usuario"
+            android:icon="@drawable/usuario"
+            android:title="@string/menu_usuario" />
+        <item
+            android:id="@+id/password"
+            android:icon="@drawable/password"
+            android:title="@string/menu_password" />
+    </group>
+    <group
+        android:id="@+id/groupoHerramientas"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/herramientas"
+            android:icon="@drawable/herramientas"
+            android:title="@string/menu_herramientas" />
+        <item
+            android:id="@+id/salir"
+            android:icon="@drawable/salir"
+            android:title="@string/menu_salir" />
+    </group>
+</menu>

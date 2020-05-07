@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Navegador Lateralr</string>
+    <string name="menu_abrir">Ingresando a Herramientas</string>
+    <string name="menu_cerrar">Saliendo de Herramientas</string>
+    <string name="menu_password">Cambiar Contraseña</string>
+    <string name="menu_herramientas">Herramientas</string>
+    <string name="menu_historia">Historia Clinica</string>
+    <string name="menu_teleconsulta">Telecosulta</string>
+    <string name="menu_laboratorio">Laboratorio</string>
+    <string name="menu_contacto">Contactanos</string>
+    <string name="menu_instagram">Instagram</string>
+    <string name="menu_facebook">Facebook</string>
+    <string name="menu_usuario">Mi Cuenta</string>
+    <string name="menu_inicio">Innova</string>
+    <string name="menu_imagen">Imagen</string>
+    <string name="menu_salir">Salir</string>
+    <string name="menu_citas">Citas</string>
+</resources>
